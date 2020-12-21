@@ -1,0 +1,786 @@
+.all {
+    width: 100%;
+}
+.nav {
+    width: 80%;
+    height: 54px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 137px;
+    height: 100%;
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.nav-left {
+    position: relative;
+    left: -130px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.nav-left ul {
+    position: relative;
+    left: -40px;
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    
+}
+.nav-left li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.nav-right {
+    width: calc(40% - 137px);
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.all-microsoft{
+    height: 100%;
+    margin: 15px;
+    font-size: 13px;
+    display: flex;
+
+}
+.search{
+    height: 100%;
+    margin: 15px;
+    font-size: 13px;
+    display: flex;
+
+}
+.buycar{
+    height: 100%;
+    margin: 15px;
+    font-size: 13px;
+    display: flex;
+}
+.signin{
+    height: 100%;
+    margin: 15px;
+    font-size: 13px;
+    display: flex;
+}
+.nav-right .icon{
+    font-size: 15px;
+}
+.signin .icon{
+    font-size: 30px;
+}
+
+.all-microsoft .icon{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.search .icon{
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.buycar .icon{
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.signin .icon{
+    padding-left: 15px;
+}
+
+
+.main{
+    width: 80%;
+    margin: auto;
+
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner .photo img{
+    width: 100%;
+}
+.banner-text .title{
+    font-size: 35px;
+}
+.banner-text{
+    position: absolute;
+    bottom: 40%;
+    left: 80px;  
+}
+.banner .botton{
+    width: 120px;
+    background-color:black;
+    color: white;
+    display: flex;
+    margin-top:10px ;
+
+}
+.banner .botton-text{
+    position: relative;
+    left: 0;
+    padding: 5px 15px;
+    transition: 0.5s;
+
+}
+
+.banner .botton-icon{
+    position: relative;
+    left: 0;
+    top: 8px;
+    transition: 0.5s;
+}
+
+.banner .botton:hover .botton-text{
+    left: -5px;
+    text-decoration: underline;
+
+}
+.banner .botton:hover .botton-icon{
+    left: 5px;
+
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+.content1 a{
+ text-decoration: none;
+ color: black;
+}
+
+.content1 .box1{
+    width: 11%;
+    text-align: center;
+}
+.content1 .box1 .icon{
+    font-size: 50px;
+    
+}
+.content1 .box1 .text{
+    font-weight: bold;
+}
+.content1 .box2{
+    width: 11%;
+    text-align: center;
+    margin: 0 50px;
+}
+.content1 .box2 .text{
+    font-weight: bold;
+}
+.content1 .box3{
+    width: 11%;
+    text-align: center;
+}
+.content1 .box3 .icon{
+    font-size: 50px;
+}
+.content1 .box3 .text{
+    font-weight: bold;
+}
+.content1 .box1 .text:hover{
+    text-decoration:underline ;
+}
+.content1 .box2 .text:hover{
+    text-decoration:underline ;
+}
+.content1 .box3 .text:hover{
+    text-decoration:underline ;
+}
+
+
+.content2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.content2 .box1{
+    width: 23%;   
+}
+.content2 .box2{
+    width: 23%;
+}
+.content2 .box3{
+    width: 23%;
+}
+.content2 .box4{
+    width: 23%;
+}
+
+
+.content2 .box1 .title{
+    margin: 35px 0 0 0;
+}
+.content2 .box1 .text{
+    margin: 10px 0 0 0;
+}
+.content2 .box1 a{
+    text-decoration: none;
+}
+.content2 .box1 .photo img{
+    width: 100%;
+}
+.content2 .box1 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content2 .box1 .text a{
+    color: black;
+}
+.content2 .box1 .href a{
+    color:#0067B8;
+}
+.content2 .box1 .href{
+    width: 120px;
+    background-color: white;
+    display: flex;
+    margin: 8px 0 0 0;
+
+}
+.content2 .box1 .href .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content2 .box1 .href:hover {
+    text-decoration: underline;
+}
+.content2 .box1 .href:hover .icon{
+    left: 15px;
+}
+
+
+.content2 .box2 .title{
+    margin: 35px 0 0 0;
+}
+.content2 .box2 .text{
+    margin: 10px 0 0 0;
+}
+.content2 .box2 a{
+    text-decoration: none;
+}
+.content2 .box2 .photo img{
+    width: 100%;
+}
+.content2 .box2 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content2 .box2 .text a{
+    color: black;
+}
+.content2 .box2 .href{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.content2 .box2 .href1 a{
+    width: 120px;
+    color:#0067B8;
+    margin-top:10px ;  
+}
+.content2 .box2 .href2 a{
+    width: 120px;
+    color:#0067B8;
+    margin-top:10px;
+    
+}
+.content2 .box2 .href1{
+    display: flex;
+    margin: 8px 0 0 0;
+
+}
+.content2 .box2 .href1 .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content2 .box2 .href2{
+    display: flex;
+    margin: 8px 0 0 40px;
+
+}
+.content2 .box2 .href2 .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+}
+.content2 .box2 .href1:hover {
+    text-decoration: underline;
+}
+.content2 .box2 .href1:hover .icon{
+    left: 15px;
+}
+.content2 .box2 .href2:hover {
+    text-decoration: underline;
+}
+.content2 .box2 .href2:hover .icon{
+    left: 15px;
+}
+
+
+.content2 .box3 .title{
+    margin: 35px 0 0 0;
+}
+.content2 .box3 .text{
+    margin: 10px 0 0 0;
+}
+.content2 .box3 a{
+    text-decoration: none;
+}
+.content2 .box3 .photo img{
+    width: 100%;
+}
+.content2 .box3 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content2 .box3 .text a{
+    color: black;
+}
+.content2 .box3 .href a{
+    width: 120px;
+    color:#0067B8;
+    margin-top:10px ;  
+}
+.content2 .box3 .href{
+    display: flex;
+    margin: 8px 0 0 0;
+    width: 120px;
+    background-color: white;
+
+}
+.content2 .box3 .href .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content2 .box3 .href:hover {
+    text-decoration: underline;
+}
+.content2 .box3 .href:hover .icon{
+    left: 15px;
+}
+
+.content2 .box4 .title{
+    margin: 35px 0 0 0;
+}
+.content2 .box4 .text{
+    margin: 10px 0 0 0;
+}
+.content2 .box4 a{
+    text-decoration: none;
+}
+.content2 .box4 .photo img{
+    width: 100%;
+}
+.content2 .box4 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content2 .box4 .text a{
+    color: black;
+}
+.content2 .box4 .href a{
+    color:#0067B8;
+}
+.content2 .box4 .href{
+    display: flex;
+    margin: 8px 0 0 0;
+    width: 120px;
+    background-color: white;
+
+}
+.content2 .box4 .href .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content2 .box4 .href:hover {
+    text-decoration: underline;
+}
+.content2 .box4 .href:hover .icon{
+    left: 15px;
+}
+
+.banner2{
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+
+.banner2 .photo img{
+    width: 100%;
+}
+.banner2-text .title{
+    font-size: 35px;
+}
+.banner2-text{
+    position: absolute;
+    bottom: 40%;
+    left: 80px;  
+}
+.banner2 .botton{
+    width: 120px;
+    background-color:black;
+    color: white;
+    display: flex;
+    margin-top:10px ;
+
+}
+.banner2 .botton-text{
+    position: relative;
+    left: 0;
+    padding: 5px 15px;
+    transition: 0.5s;
+
+}
+
+.banner2 .botton-icon{
+    position: relative;
+    left: 0;
+    top: 8px;
+    transition: 0.5s;
+}
+
+.banner2 .botton:hover .botton-text{
+    left: -5px;
+    text-decoration: underline;
+
+}
+.banner2 .botton:hover .botton-icon{
+    left: 5px;
+
+}
+
+.content3{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px 0 10px 0;
+}
+
+.content4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.content4 .box1{
+    width: 23%;   
+}
+.content4 .box2{
+    width: 23%;
+}
+.content4 .box3{
+    width: 23%;
+}
+.content4 .box4{
+    width: 23%;
+}
+
+
+.content4 .box1 .title{
+    margin: 35px 0 0 0;
+}
+.content4 .box1 .text{
+    margin: 10px 0 0 0;
+}
+.content4 .box1 a{
+    text-decoration: none;
+}
+.content4 .box1 .photo img{
+    width: 100%;
+}
+.content4 .box1 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content4 .box1 .text a{
+    color: black;
+}
+.content4 .box1 .href a{
+    color:#0067B8;
+}
+.content4 .box1 .href{
+    width: 120px;
+    background-color: white;
+    display: flex;
+    margin: 8px 0 0 0;
+
+}
+.content4 .box1 .href .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content4 .box1 .href:hover {
+    text-decoration: underline;
+}
+.content4 .box1 .href:hover .icon{
+    left: 15px;
+}
+
+
+.content4 .box2 .title{
+    margin: 35px 0 0 0;
+}
+.content4 .box2 .text{
+    margin: 10px 0 0 0;
+}
+.content4 .box2 a{
+    text-decoration: none;
+}
+.content4 .box2 .photo img{
+    width: 100%;
+}
+.content4 .box2 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content4 .box2 .text a{
+    color: black;
+}
+.content4 .box2 .href{
+    display: flex;
+    width: 350px;
+    background-color: white;
+}
+.content4 .box2 .href a{
+    color:#0067B8;
+}
+
+.content4 .box2 .href .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content4 .box2 .href:hover {
+    text-decoration: underline;
+}
+.content4 .box2 .href:hover .icon{
+    left: 15px;
+}
+
+.content4 .box3 .title{
+    margin: 35px 0 0 0;
+}
+.content4 .box3 .text{
+    margin: 10px 0 0 0;
+}
+.content4 .box3 a{
+    text-decoration: none;
+}
+.content4 .box3 .photo img{
+    width: 100%;
+}
+.content4 .box3 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content4 .box3 .text a{
+    color: black;
+}
+.content4 .box3 .href a{
+    width: 120px;
+    color:#0067B8;
+    margin-top:10px ;  
+}
+.content4 .box3 .href{
+    display: flex;
+    margin: 8px 0 0 0;
+    width: 120px;
+    background-color: white;
+
+}
+.content4 .box3 .href .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content4 .box3 .href:hover {
+    text-decoration: underline;
+}
+.content4 .box3 .href:hover .icon{
+    left: 15px;
+}
+
+.content4 .box4 .title{
+    margin: 35px 0 0 0;
+}
+.content4 .box4 .text{
+    margin: 10px 0 0 0;
+}
+.content4 .box4 a{
+    text-decoration: none;
+}
+.content4 .box4 .photo img{
+    width: 100%;
+}
+.content4 .box4 .title a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content4 .box4 .text a{
+    color: black;
+}
+.content4 .box4 .href a{
+    color:#0067B8;
+}
+.content4 .box4 .href{
+    display: flex;
+    margin: 8px 0 0 0;
+    width: 120px;
+    background-color: white;
+
+}
+.content4 .box4 .href .icon {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+
+}
+.content4 .box4 .href:hover {
+    text-decoration: underline;
+}
+.content4 .box4 .href:hover .icon{
+    left: 15px;
+}
+
+.content5{
+    display: flex;
+    margin-top: 100px;
+}
+.content5 .icon1 a{
+    font-size: 30px;
+    color: #0067B8;
+    margin-left: 15px;
+}
+.content5 .icon2 a{
+    font-size: 30px;
+    color: red;
+    margin-left: 15px;
+}
+
+.footer{
+    width: 100%;
+    background-color:whitesmoke;
+}
+.footer1 ul{
+    display: table-header-group;
+    font-size: 13px;
+    list-style: none;
+}
+.footer1 ul a{
+    text-decoration: none;
+    
+}
+.footer1 .box li{
+    margin:13px 0 ;
+}
+
+.bbox1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+.footer1 .bbox1 .box{
+    width: 16.6%;
+   
+}
+.footer2{
+    width: 100%;
+    background-color:whitesmoke;
+}
+.footer2 .bbox2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer2 .box1{
+    width: 100px;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+.footer2 .box2 ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.footer2 a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+    
+
+
+
+
+
+
+
